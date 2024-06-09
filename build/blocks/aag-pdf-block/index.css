@@ -1,0 +1,45 @@
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/aag-pdf-block/main.css ***!
+  \***************************************************************************************************************************************************************************************/
+.certificate__block {
+    background-color: #f5f5f5;
+    filter: drop-shadow(-5px -5px 10px rgba(237,237,237,.5)) drop-shadow(5px 5px 10px rgba(0,0,0,.15)) !important;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.certificate__block h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+.certificate__block button {
+    min-width: 210px;
+    background-color: #d9d9d9;
+    color: #000;
+    padding: 8px 10px;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.certificate__block button:hover {
+    background-color: #012B4D;
+    color: #fff;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,.5));
+}
+
+/*# sourceMappingURL=index.css.map*/

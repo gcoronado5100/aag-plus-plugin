@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aag-plus/aag-card-service",
+  "title": "AAG Card Block",
+  "category": "widgets",
+  "icon": "airplane",
+  "description": "A card to hold a short comment with a custom background image",
+  "keywords": [
+    "card",
+    "image",
+    "background",
+    "comment",
+    "aag-plus"
+  ],
+  "version": "1",
+  "textdomain": "aag-plus",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Title"
+    },
+    "content": {
+      "type": "string",
+      "default": "Content"
+    },
+    "bgImage": {
+      "type": "string",
+      "default": "https://via.placeholder.com/150"
+    }
+  },
+  "style": "file:./index.css"
+}

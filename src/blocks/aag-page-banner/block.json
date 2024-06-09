@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "aag-plus/page-banner",
+    "title": "Page Banner",
+    "category": "widgets",
+    "icon": "airplane",
+    "description": "Page Banner for AAG Plus",
+    "keywords": ["banner", "page banner", "hero", "hero banner", "aag plus", "aag-plus"],
+    "version": "1",
+    "textdomain": "aag-plus",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "Page Banner"
+        },
+        "subtitle": {
+            "type": "string",
+            "default": "Subtitle"
+        },
+        "showSubtitle": {
+            "type": "boolean",
+            "default": true
+        },
+        "isCentered": {
+            "type": "boolean",
+            "default": false
+        },
+        "showIcon": {
+            "type": "boolean",
+            "default": false
+        },
+        "icon": {
+            "type": "string",
+            "default": "1"
+        }
+    },
+    "style": "file:./index.css"	
+}

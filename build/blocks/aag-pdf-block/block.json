@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aag-plus/aag-pdf-block",
+  "title": "Certificate Block",
+  "category": "widgets",
+  "icon": "airplane",
+  "description": "A widget to show a certificate in a page or post",
+  "keywords": [
+    "certificate",
+    "pdf",
+    "block",
+    "aag-plus"
+  ],
+  "version": "1",
+  "textdomain": "aag-plus",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Certificate"
+    },
+    "slug": {
+      "type": "string",
+      "default": ""
+    },
+    "pdfUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "pdfName": {
+      "type": "string",
+      "default": ""
+    },
+    "pdfDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "actionText": {
+      "type": "string",
+      "default": "View"
+    },
+    "onNewTab": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "style": "file:./index.css"
+}
