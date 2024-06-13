@@ -37,3 +37,7 @@ foreach ($allFiles as $file) {
 register_activation_hook(__FILE__, 'aag_activate_plugin');
 add_action('wp_enqueue_scripts', 'aag_enqueue_assets');
 add_action('init', 'aa_register_blocks');
+
+
+//  Shortcodes
+add_shortcode('aag_parts_swiper', 'aag_parts_swiper');

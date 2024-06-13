@@ -1,0 +1,66 @@
+#partsCarousel {
+    overflow: hidden;
+    width: 100%;
+}
+
+.box-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    /* background: radial-gradient(rgba(255, 255, 255, 0) 3%, rgba(0, 0, 0, 0.28) 100%); */
+    padding: 10px;
+    color: #333333;
+}
+
+.box-overlay img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.box-overlay h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.box-overlay p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#partsCarousel .swiper-wrapper .swiper-slide.sm-text p,
+#partsCarousel .swiper-wrapper .swiper-slide.sm-text p {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.carousel__controls {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin: 1rem 0;
+}
+
+.carousel__controls .col:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.carousel__controls .col:nth-child(2) i {
+    font-size: 1.5rem;
+    color: #777777;
+    transition: all 0.3s ease;
+}
+
+.carousel__controls .col:nth-child(2) i:hover {
+    color: #00061a
+}
+
+.swiper-pagination span {
+    color: #00061a;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+}

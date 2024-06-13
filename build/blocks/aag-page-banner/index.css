@@ -28,16 +28,17 @@
 
 .aag-page-banner .aag-turbine-icon {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: -125px;
+    left: -125px;
     width: 120%;
     height: 120%;
-    max-width: 700px;
+    max-width: 550px;
     max-height: 700px;
-    -o-object-fit: contain;
-       object-fit: contain;
+    -o-object-fit: cover;
+       object-fit: cover;
     transform: translate(-35%, 30%);
     mix-blend-mode: overlay;
+    animation: rotateWheel 20s linear infinite;
     opacity: 0.75;
 }
 
