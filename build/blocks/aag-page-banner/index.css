@@ -89,6 +89,23 @@
 
 
 @media screen and (max-width: 768px) {
+
+    .aag-page-banner .aag-turbine-right {
+        display: none;
+    }
+
+    .aag-page-banner .aag-turbine-icon  {
+        width: 300px;
+        height: 300px;
+        left: 5%;
+        bottom: 25%;
+        
+    }
+
+    .aag-page-banner .airplane {
+        transform: translateY(35%);
+    }
+
     .aag-page-banner .banner-overlay .banner__container h2 {
         font-size: 4rem;
     }
